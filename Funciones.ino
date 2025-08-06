@@ -130,7 +130,7 @@ int distancia(int TriggerPin, int EchoPin) {
   distanceCm = duration * 10 / 292/ 2;   //convertimos a distancia, en cm
   return distanceCm;
 }
-}
+
 
 void GirarVerde(int L) {
   int band = bandera;
@@ -219,4 +219,5 @@ void Esquivar(int L) {
   Enviar();
   delay(200);
 }
+
 
